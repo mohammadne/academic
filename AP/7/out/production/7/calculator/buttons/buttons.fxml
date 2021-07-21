@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.buttons.ButtonsController">
+    <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <HBox prefHeight="100.0" prefWidth="200.0">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num7" prefHeight="105.0" prefWidth="105.0" text="7" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num8" prefHeight="105.0" prefWidth="105.0" text="8" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num9" prefHeight="105.0" prefWidth="105.0" text="9" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#operatorMultiple" prefHeight="105.0" prefWidth="105.0" text="✕" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="160.0" prefHeight="100.0" prefWidth="200.0">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num4" prefHeight="105.0" prefWidth="105.0" text="4" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num5" prefHeight="105.0" prefWidth="105.0" text="5" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num6" prefHeight="105.0" prefWidth="105.0" text="6" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#operationDivide" prefHeight="105.0" prefWidth="105.0" text="÷" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="110.0" prefHeight="100.0" prefWidth="200.0">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num1" prefHeight="105.0" prefWidth="105.0" text="1" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num2" prefHeight="105.0" prefWidth="105.0" text="2" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num3" prefHeight="105.0" prefWidth="105.0" text="3" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#operationPlus" prefHeight="105.0" prefWidth="105.0" text="+" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+        </HBox>
+        <HBox layoutX="10.0" layoutY="210.0" prefHeight="100.0" prefWidth="200.0">
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#Dot" prefHeight="105.0" prefWidth="105.0" text="." HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#num0" prefHeight="105.0" prefWidth="105.0" text="0" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#operationEqual" prefHeight="105.0" prefWidth="105.0" text="=" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+            <Button layoutX="115.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#operationMinus" prefHeight="105.0" prefWidth="105.0" text="-" HBox.hgrow="ALWAYS">
+            <font>
+               <Font size="36.0" />
+            </font></Button>
+        </HBox>
+    </VBox>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da3bb191-357a-40fe-9daa-2f87e548fafb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/1/1/1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/out/production/7/calculator/buttons/ButtonsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/7/out/production/7/calculator/buttons/ButtonsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/out/production/7/calculator/buttons/buttons.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/7/out/production/7/calculator/buttons/buttons.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/out/production/7/calculator/display/DisplayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/7/out/production/7/calculator/display/DisplayController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/out/production/7/calculator/display/display.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/7/out/production/7/calculator/display/display.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/src/calculator/CalculatorState.java" beforeDir="false" afterPath="$PROJECT_DIR$/7/src/calculator/CalculatorState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/src/calculator/buttons/ButtonsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/7/src/calculator/buttons/ButtonsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/src/calculator/buttons/buttons.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/7/src/calculator/buttons/buttons.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7/src/calculator/display/DisplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/7/src/calculator/display/DisplayController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dj6YhtXa2Lv32g9GyabsB4bAUl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/7" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da3bb191-357a-40fe-9daa-2f87e548fafb" name="Default Changelist" comment="" />
+      <created>1592926204026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592926204026</updated>
+      <workItem from="1592926205979" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1592926222208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592926222208" />
+  </component>
+</project>

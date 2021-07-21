@@ -1,0 +1,153 @@
+/*
+    Created on : 13 May, 2020, 4:42:53 AM
+    Author     : Mohammad Nasr
+*/
+
+* {
+    -fx-primary : #2A2E37;
+    -fx-secondary : #FFFF8D;
+    -fx-primarytext : #B2B2B2;
+    -fx-blue: #1976D2;
+    -fx-red: #FF0000;
+    -fx-color-1:#1976D2;
+    -fx-main-request:#4071ff;
+    -fx-main-info:#b3d3ff;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+/*Text Fields*/
+
+.text-field-main-request
+{
+    -fx-text-fill: white;
+    -fx-prompt-text-fill:white;
+    -fx-background-color: derive(-fx-main-request, 20%);
+    -fx-font-size : 9pt;
+    -jfx-focus-color: derive(-fx-primary, 20%);
+    -fx-text-fill: white;
+}
+
+.text-field-main-request .input-line
+{
+    -fx-background-color: none;
+}
+
+.text-field-main-request:focused 
+{
+    -fx-content: "";
+    /* -fx-faint-focus-color: transparent; */
+}
+.text-field-main-request:focused::after
+.text-field-main-request:focused::before
+{
+    -fx-content: "";
+    /* -fx-faint-focus-color: transparent; */
+}
+
+.text-field-main-info
+{
+    -fx-text-fill: -fx-primarytext;
+    -fx-font-size : 9pt;
+    -jfx-focus-color: derive(-fx-primary, 20%);
+    -fx-text-fill: -fx-primary;
+}
+
+.text-field-main-info .input-line
+{
+    -fx-background-color: none; 
+}
+
+/*Login Screen Specific*/
+.wrong-credentials
+{
+    -jfx-unfocus-color: #ef5350;
+    -jfx-focus-color: #ef5350;
+}
+
+/*Main Screen CSS Styling starts here*/
+.main-request{
+    -fx-font-family: Chilanka;
+    -fx-background-color: -fx-main-request;
+    -fx-border-color: derive(-fx-main-request, 20%);
+}
+
+.main-info{
+    -fx-font-family: Chilanka;
+    -fx-background-color: -fx-main-info;
+    -fx-border-color: derive(-fx-main-info, 20%);
+}
+
+/*Split Pane*/
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: -fx-primary;
+    -fx-padding: 0;
+ }
+
+
+/*Menu bar Styling*/
+.menu-bar{
+    -fx-font-size: 13;
+    -fx-base : -fx-primary;
+    -fx-background-color: derive(-fx-primary, 20%);
+}
+
+.context-menu {
+    -fx-background-color:  derive(-fx-primary, 20%);
+    -fx-font-size: 14;
+    -fx-min-width: 150px;
+}
+
+/*Combo Box*/
+.combo-box {
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-background-color: none;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 0 0 -0;
+}
+
+/*Tab Pane styling*/
+
+.jfx-tab-pane .tab-selected-line {
+   -fx-background-color: white;
+}
+.jfx-tab-pane .tab-header-area .jfx-rippler{
+   -jfx-rippler-fill :derive(-fx-main-info, 20%);
+}
+.jfx-tab-pane .depth-container { -fx-effect: none; }
+
+.tab , .tab-header-background{
+    -fx-pref-width: 80;
+    -fx-pref-height: 50;
+    /*-fx-background-color: -fx-main-info;*/
+}
+
+/* List*/
+/* .list-view :selected{
+    -fx-background-color: none;
+    -fx-border-color: none;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: none;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: none;
+}
+
+.list-view .list-cell {
+    -fx-background-color: none;
+    -fx-text-fill: none;
+}
+
+.list-view .label {
+    -fx-text-fill: none;
+}
+
+.jfx-rippler {
+    -jfx-rippler-fill: none;
+} */

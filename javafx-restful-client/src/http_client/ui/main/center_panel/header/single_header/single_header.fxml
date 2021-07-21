@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox fx:id="mainHBox" fx:controller="http_client.ui.main.center_panel.header.single_header.SingleHeaderController" alignment="CENTER" prefHeight="45.0" prefWidth="527.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <FontAwesomeIcon glyphName="ANCHOR" HBox.hgrow="NEVER">
+      <HBox.margin>
+         <Insets left="10.0" />
+      </HBox.margin></FontAwesomeIcon>
+    <JFXTextField prefHeight="26.0" prefWidth="120.0" promptText="header" HBox.hgrow="ALWAYS" />
+    <JFXTextField prefWidth="120.0" promptText="value" HBox.hgrow="ALWAYS" />
+    <JFXButton onMouseClicked="#onTapDelete" prefHeight="26.0" prefWidth="77.0" text="Delete" textFill="#ff4e4e" HBox.hgrow="NEVER">
+        <graphic>
+          <FontAwesomeIcon fill="red" glyphName="TRASH" selectionEnd="0" selectionFill="red" />
+        </graphic>
+    </JFXButton>
+</HBox>
